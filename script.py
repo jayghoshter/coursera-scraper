@@ -13,7 +13,7 @@ import requests
 
 fzf = FzfPrompt()
 
-FZF_FILE_OPTS = "--cycle" 
+FZF_FILE_OPTS = "--cycle --reverse" 
 
 algolia_app_id = 'LUA9B20G37'
 algolia_api_key = 'dcc55281ffd7ba6f24c3a9b18288499b'
