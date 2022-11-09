@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from algoliasearch.search_client import SearchClient
 from pathlib import Path
 from pyfzf.pyfzf import FzfPrompt
