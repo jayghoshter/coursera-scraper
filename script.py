@@ -51,7 +51,7 @@ def get_domains_subdomains():
 def main(): 
 
     ap = argparse.ArgumentParser()
-    ap.add_argument('-c', '--cache-dir', default=f"~/.cache/{__name__}")
+    ap.add_argument('-c', '--cache-dir', default=f".")
     args = ap.parse_args()
 
     ## For eventual use
