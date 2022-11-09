@@ -117,7 +117,11 @@ def main():
     df.rename(columns = {'value': 'description'}, inplace=True)
 
     output_columns = ['name', 'partners', 'enrollments', 'numProductRatings', 'description']
+
+    print(f"Dumping data to {cache_file.with_suffix('.csv')}")
     df[output_columns].to_csv(cache_file.with_suffix('.csv'), index=False)
+
+    print("Done!")
 
     # TODO: UTF-8 Charset?
 
