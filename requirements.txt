@@ -1,0 +1,7 @@
+algoliasearch
+pandas
+plumbum
+pyfzf
+pyfzf
+requests
+rich
